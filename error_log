@@ -1,0 +1,7 @@
+[17-Jan-2020 08:37:20 Asia/Manila] PHP Fatal error:  Call to a member function set_flashdata() on null in /home/bl49icfguquf/public_html/application/controllers/Withdrawals.php on line 97
+[17-Jan-2020 08:40:40 Asia/Manila] PHP Fatal error:  Call to a member function set_flashdata() on null in /home/bl49icfguquf/public_html/application/controllers/Withdrawals.php on line 97
+[17-Jan-2020 08:41:38 Asia/Manila] PHP Fatal error:  Call to a member function set_flashdata() on null in /home/bl49icfguquf/public_html/application/controllers/Withdrawals.php on line 97
+[17-Jan-2020 08:44:17 Asia/Manila] PHP Fatal error:  Call to a member function set_flashdata() on null in /home/bl49icfguquf/public_html/application/controllers/Withdrawals.php on line 97
+[17-Jan-2020 00:57:15 UTC] PHP Fatal error:  Call to a member function get_by_id() on null in /home/bl49icfguquf/public_html/application/controllers/User_details.php on line 76
+[17-Jan-2020 00:57:22 UTC] PHP Fatal error:  Call to a member function get_by_id() on null in /home/bl49icfguquf/public_html/application/controllers/User_details.php on line 76
+[17-Jan-2020 00:58:38 UTC] PHP Fatal error:  Call to a member function get_by_id() on null in /home/bl49icfguquf/public_html/application/controllers/User_details.php on line 76
