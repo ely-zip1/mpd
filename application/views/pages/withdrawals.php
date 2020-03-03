@@ -17,6 +17,11 @@
                                       Withdrawal request cut off: 10AM.  Releasing time: 5PM
                                     </div>
 								</div>
+								<div class="col-12">
+								    <div class="alert alert-warning text-center">
+                                      All withdrawals are subject to 10% tax deduction.
+                                    </div>
+								</div>
 							</div>
 							
 							<div class="row">
