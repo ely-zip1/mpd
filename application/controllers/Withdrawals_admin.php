@@ -60,7 +60,10 @@ class Withdrawals_admin extends CI_Controller
             $temp['id'] = $pending->id;
             $temp['member_id'] = $member_data->id;
             $temp['client_name'] = ucfirst($member_data->first_name) . ' ' . ucfirst($member_data->last_name);
-            $temp['amount'] = number_format($pending->amount,2);
+
+            $taxed_amount = $pending->amount - ($pending->amount * 0.10);
+            $temp['amount'] = number_format($taxed_amount,2);
+
             $temp['email'] = $member_data->email_address;
             $temp['phone'] = $member_data->contact_number;
             $temp['date'] = $pending->date;
