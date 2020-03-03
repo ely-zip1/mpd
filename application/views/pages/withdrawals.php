@@ -40,7 +40,7 @@
 
 							</div>
 
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-6">
 									<p>Deductions (Tax)</p>
 								</div>
@@ -49,9 +49,9 @@
 									<p><strong>-10%</strong></p>
 								</div>
 
-							</div>
+							</div> -->
 
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-6">
 									<p>Withdrawable Amount</p>
 								</div>
@@ -60,7 +60,7 @@
 									<p><strong> $<?php if(isset($withdrawable_amount))echo $withdrawable_amount;?></strong></p>
 								</div>
 
-							</div>
+							</div> -->
 							<?php echo form_open('withdrawals');?>
 
 							<div class="row">

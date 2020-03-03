@@ -66,9 +66,9 @@ class Withdrawals  extends CI_Controller
 
 		$data['total_profit'] = number_format($withdrawable,2);
 		
-		$tax_deduction = $withdrawable * 0.10;
-		$total_withdrawable = $withdrawable - $tax_deduction;
-		$data['withdrawable_amount'] = number_format($total_withdrawable,2);
+		// $tax_deduction = $withdrawable * 0.10;
+		// $total_withdrawable = $withdrawable - $tax_deduction;
+		// $data['withdrawable_amount'] = number_format($total_withdrawable,2);
 		
 		if($withdrawable >= 5){
 		    $data['can_withdraw'] = true;
@@ -76,7 +76,7 @@ class Withdrawals  extends CI_Controller
 		    $data['can_withdraw'] = false;
 		}
 
-		$this->form_validation->set_rules('withdraw_amount', 'Amount', 'required|numeric|greater_than_equal_to[5]|less_than_equal_to['.$total_withdrawable.']');
+		$this->form_validation->set_rules('withdraw_amount', 'Amount', 'required|numeric|greater_than_equal_to[5]|less_than_equal_to['.$withdrawable.']');
 
 		if ($this->form_validation->run() == FALSE) {
             // echo "failed validation";
